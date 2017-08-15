@@ -1,5 +1,5 @@
 ---
-name: oracle-java-jre
+name: gerrit
 
 dependencies:
   - oracle-java-jre

@@ -1,0 +1,7 @@
+---
+name: oracle-java-jdk
+
+dependencies: []
+
+files:
+  - oracle-java-jdk/jdk-8*.tar.gz

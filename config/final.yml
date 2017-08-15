@@ -1,5 +1,5 @@
 ---
-name: gerrit-bosh-release
+name: gerrit
 blobstore:
   provider: s3
   options:

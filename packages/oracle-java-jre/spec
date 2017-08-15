@@ -4,4 +4,4 @@ name: oracle-java-jre
 dependencies: []
 
 files:
-  - oracle-java-jre/jre-8u*.tar.gz
+  - oracle-java-jre/jre-8*.tar.gz

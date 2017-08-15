@@ -1,7 +1,7 @@
 set -e
 
-tar xzf oracle-java-jre/jre-8*.tar.gz
-cp -R jre*/* ${BOSH_INSTALL_TARGET}
+tar xzf oracle-java-jdk/jdk-8*.tar.gz
+cp -R jdk*/* ${BOSH_INSTALL_TARGET}
 
 export JAVA_HOME=${BOSH_INSTALL_TARGET}
 export PATH=${PATH}:${JAVA_HOME}/bin

@@ -1,0 +1,4 @@
+set -e
+
+tar xzf oracle-java-jre/jre-8u*.tar.gz
+cp -R oracle-java-jre/* ${BOSH_INSTALL_TARGET}

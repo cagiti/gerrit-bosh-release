@@ -1,0 +1,8 @@
+---
+name: gerrit-bosh-release
+blobstore:
+  provider: s3
+  options:
+    host: storage.googleapis.com
+    port: 443    
+    bucket_name: bosh-blobstore

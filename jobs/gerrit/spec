@@ -1,0 +1,11 @@
+---
+name: gerrit
+
+templates:
+  ctl: bin/ctl
+
+packages:
+  - oracle-java-jre
+  - gerrit
+
+properties: {}

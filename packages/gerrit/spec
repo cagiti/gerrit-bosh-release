@@ -1,0 +1,8 @@
+---
+name: oracle-java-jre
+
+dependencies:
+  - oracle-java-jre
+
+files:
+  - gerrit/gerrit-2.12.7.war

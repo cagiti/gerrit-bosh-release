@@ -1,0 +1,5 @@
+check process gerrit
+  with pidfile /var/vcap/sys/run/gerrit/pid
+  start program "/var/vcap/jobs/gerrit/bin/ctl start"
+  stop program "/var/vcap/jobs/gerrit/bin/ctl stop"
+  group vcap

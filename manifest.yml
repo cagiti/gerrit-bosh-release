@@ -1,6 +1,6 @@
 
 ---
-name: gerrit-bosh-release
+name: gerrit
 
 releases:
 - name: gerrit

@@ -6,7 +6,3 @@ oracle-java-jdk/jdk-8u144-linux-i586.tar.gz:
   size: 188157665
   object_id: 3c28fc3a-c2e8-43e8-73b7-c45c70a2debc
   sha: b12aa3966c3af08dd8c36a1022feafa4945d96e5
-oracle-java-jre/jre-8u144-linux-i586.tar.gz:
-  size: 78658631
-  object_id: c9849ea7-0f99-4506-46a0-16030da7241b
-  sha: 3cea30754cbd4d226fc1560458e8654c79de7dd8

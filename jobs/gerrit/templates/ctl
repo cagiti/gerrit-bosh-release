@@ -7,7 +7,7 @@ PIDFILE=${RUN_DIR}/pid
 RUN_AS=vcap
 GERRIT=/var/vcap/packages/gerrit
 
-export JAVA_HOME=/var/vcap/packages/oracle-java-jre
+export JAVA_HOME=/var/vcap/packages/oracle-java-jdk
 export PATH=$JAVA_HOME/bin:$PATH
 
 case $1 in

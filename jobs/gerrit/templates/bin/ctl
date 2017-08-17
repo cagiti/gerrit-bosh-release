@@ -5,6 +5,7 @@ set -u # report the usage of uninitialized variables
 
 # Setup env vars and folders for the webapp_ctl script
 source /var/vcap/jobs/gerrit/helpers/ctl_setup.sh 'gerrit'
+source /var/vcap/jobs/gerrit/packages/git/profile.sh
 
 case $1 in
 

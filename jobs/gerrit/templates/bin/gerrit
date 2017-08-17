@@ -10,9 +10,14 @@ export JAVA_TOOL_OPTIONS=""
 GERRIT_VERSION=2.12.7
 GERRIT=/var/vcap/jobs/gerrit/packages/gerrit/gerrit/gerrit-${GERRIT_VERSION}.war
 GERRIT_STORE="/var/vcap/store/gerrit"
-GERRIT_ARGS="init --batch -d ${GERRIT_STORE}"
+GERRIT_INIT_ARGS="init --batch -d ${GERRIT_STORE}"
 MEMORY_SETTINGS=""
 
 # start gerrit
-echo "${JAVA} ${MEMORY_SETTINGS} ${JAVA_OPTS} -jar ${GERRIT} ${GERRIT_ARGS}"
-${JAVA} ${MEMORY_SETTINGS} ${JAVA_OPTS} -jar ${GERRIT} ${GERRIT_ARGS}
+echo "${JAVA} ${MEMORY_SETTINGS} ${JAVA_OPTS} -jar ${GERRIT} ${GERRIT_INIT_ARGS}"
+${JAVA} ${MEMORY_SETTINGS} ${JAVA_OPTS} -jar ${GERRIT} ${GERRIT_INIT_ARGS}
+
+if [ -f ${GERRIT_STORE}/bin/gerrit.sh ]
+then
+    ${GERRIT_STORE}/bin/gerrit.sh restart
+fi

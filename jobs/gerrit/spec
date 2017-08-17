@@ -12,6 +12,7 @@ templates:
 
 packages:
   - oracle-java-jdk
+  - git
   - gerrit
 
 properties: {}
